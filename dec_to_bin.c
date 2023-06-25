@@ -12,7 +12,7 @@ int to_binary(int decimal_num)
   i++;
  }
  size = i;
- for (i = size - 1; i >= size; i--)
+ for (i = size - 1; i >= 0; i--)
  {
   printf("%d", binary_num[i]);
  }
